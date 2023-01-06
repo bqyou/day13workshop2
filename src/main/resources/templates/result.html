@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body data-th-object="${contact}">
+    <h1>Your contact information</h1>
+    <p>
+        id:
+        <p data-th-text="*{id}"></p>
+    </p>
+    <p>
+        name:
+        <p data-th-text="*{name}"></p>
+    </p>
+    <p>
+        email:
+        <p data-th-text="*{email}"></p>
+    </p>
+    <p>
+        phonenumber:
+        <p data-th-text="*{phoneNumber}"></p>
+    </p>
+    <p>
+        Dob:
+        <p data-th-text="*{dateOfBirth}"></p>
+    </p>
+</body>
+</html>
